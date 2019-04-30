@@ -5,6 +5,7 @@ public class Main {
 		MuseoBorbonico museoBorbonico = new MuseoBorbonico("1", "museo", 10, 15);
 		
 		museoBorbonico.visita(v);
+		System.out.println(museoBorbonico.getNome());
 	}
 
 }
