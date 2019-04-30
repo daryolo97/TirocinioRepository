@@ -1,7 +1,7 @@
 import java.util.Random;
 
-public class museoBorbonico extends Museo {
-	public museoBorbonico(String codiceID, String nome, int nVisite, int nMaxVisite) {
+public class MuseoBorbonico extends Museo {
+	public MuseoBorbonico(String codiceID, String nome, int nVisite, int nMaxVisite) {
 		super(codiceID, nome);
 		this.nMaxVisite = nMaxVisite;
 		this.nVisite = nVisite;
