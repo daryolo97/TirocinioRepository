@@ -12,6 +12,10 @@ public abstract class Museo {
 		return nome;
 	}
 	
+	public void prova() {
+		System.out.print("Non faccio niente");
+	}
+	
 	public abstract void visita(Visitatore v);
 
 
