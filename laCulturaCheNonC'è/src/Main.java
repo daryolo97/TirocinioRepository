@@ -6,6 +6,8 @@ public class Main {
 		
 		museoBorbonico.visita(v);
 		System.out.println(museoBorbonico.getNome());
+		
+		System.out.println(museoBorbonico.getCodiceID());
 	}
 
 }
