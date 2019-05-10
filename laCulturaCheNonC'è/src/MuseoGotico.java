@@ -5,6 +5,7 @@ public class MuseoGotico extends Museo{
 		super(codiceID, nome);
 		this.prezzo = prezzo;
 		this.tasseRiscosse = tasseRiscosse;
+		this.nMaxVisitatori = nMaxVisitatori;
 	}
 	
 	public void visita(Visitatore v) {
