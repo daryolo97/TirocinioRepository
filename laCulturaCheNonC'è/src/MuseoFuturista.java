@@ -7,6 +7,7 @@ public class MuseoFuturista extends Museo{
 		this.tasseRiscosse = tasseRiscosse;
 		this.visitatori = visitatori;
 		this.nMaxVisitatori = nMaxVisitatori;
+		//
 	}
 	
 	public void visita(Visitatore v) {
