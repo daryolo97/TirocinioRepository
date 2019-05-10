@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class MuseoGotico extends Museo{
 	public MuseoGotico(String codiceID, String nome, int prezzo, ArrayList<Visitatore> visitatori, int tasseRiscosse, int nMaxVisitatori) {
-		super(codiceID, nome);
+		super(codiceID, nome);//
 		this.prezzo = prezzo;
 		this.tasseRiscosse = tasseRiscosse;
 		this.nMaxVisitatori = nMaxVisitatori;
