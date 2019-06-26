@@ -8,6 +8,7 @@ public class Main {
 		System.out.println(museoBorbonico.getNome());
 		
 		System.out.println(museoBorbonico.getCodiceID());
+		System.out.println(museoBorbonico.getCodiceID());
 	}
 
 }
