@@ -5,7 +5,6 @@ public class MuseoBorbonico extends Museo {
 		super(codiceID, nome);
 		this.nMaxVisite = nMaxVisite;
 		this.nVisite = nVisite;
-		int count = 0;
 		attività = new String[3];
 		attività[0] = "discussioni";
 		attività[1] = "lettura";
