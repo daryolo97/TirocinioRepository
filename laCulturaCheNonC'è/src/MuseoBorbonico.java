@@ -6,7 +6,7 @@ public class MuseoBorbonico extends Museo {
 		this.nMaxVisite = nMaxVisite;
 		this.nVisite = nVisite;
 		attivit‡ = new String[3];
-		attivit‡[0] = "discussioni";
+
 		attivit‡[1] = "lettura";
 		attivit‡[2] = "tutorial";
 	}
@@ -15,6 +15,7 @@ public class MuseoBorbonico extends Museo {
 		Random generatore = new Random();
 		int x = generatore.nextInt(3);
 		
+		int prova;
 		v.getAttivit‡Eff().add(attivit‡[x]);
 	}
 	
