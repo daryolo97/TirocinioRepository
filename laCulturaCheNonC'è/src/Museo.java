@@ -1,8 +1,7 @@
 
 public abstract class Museo {
 	public Museo(String codiceID, String nome) {
-		this.codiceID = codiceID;
-		this.nome = nome;
+		
 	}
 
 	public String getCodiceID() {
@@ -14,6 +13,7 @@ public abstract class Museo {
 	
 	public void prova() {
 		System.out.print("Non faccio niente");
+		System.out.println("OK");
 	}
 	
 	public abstract void visita(Visitatore v);

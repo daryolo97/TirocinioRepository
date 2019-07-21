@@ -20,6 +20,8 @@ public class MuseoGotico extends Museo{
 	}
 	
 	
+	
+	
 	private int prezzo, tasseRiscosse, nMaxVisitatori;
 	private ArrayList<Visitatore> visitatori;
 	
